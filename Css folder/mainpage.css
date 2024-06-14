@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1-container {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.section1-tablet {
+    display: none;
+}
+.container {  
+    width: 100%;
+}
+.section1-main {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.section1-select {
+    border: none;
+    font-size: 15px;
+}
+.section1button1 {
+    border: none;
+    font-size: 20px;
+    background-color: white;
+}
+.section1button2 {
+    width: 300px;
+    padding: 10px 5px;
+    margin: 0 20px;
+    margin-right: 50px;
+    border-radius: 30px;
+    background-color: rgb(192, 184, 168);
+    border: 5px solid  rgb(192, 184, 168);
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+/* section2 */
+.section-2-mainsec {
+    width: 85%;
+    margin: auto;
+}
+.section-2-container {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    height: 90vh;
+background-color: whitesmoke;
+}
+.section-2-input1 {
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #000000;
+    font-weight: 900;
+    font-size: 120px;
+    letter-spacing: 15px;
+    line-height: 40px;
+    font-family: "Noto Sans JP", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  padding-bottom: 20px;
+    
+}
+
+.section-2-input2 {
+    
+    display: block;
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #000000;
+    font-weight: 900;
+    font-size: 100px;
+    letter-spacing: 0.95px;
+    line-height: 70px;
+    font-family: "Noto Sans JP";
+    padding: 20px;
+}
+
+.section-2-mainsec p {
+    font-size: 25px;
+
+}
+.section1-btn {
+    width: 250px;
+    padding: 20px;
+    border-radius: 30px;
+    
+    
+}
+.sec2p {
+    margin: 40px 0;
+}
+.btn2 {
+    background-color: #000000;
+    color: white;
+}
+.sec2img {
+    display: flex;
+    position: relative;
+}
+.sec2img-icone {
+    position: absolute;
+    left: -19px;
+    bottom: 50%;
+}
+.sec2img {
+    transform: rotate(5deg);
+    margin-top: 40px;
+}
+ .sec2-orintation {
+     transform: rotate(85deg); 
+    font-size: 14px;
+    position: relative;
+    height: 70px;
+    width: 300px;
+    align-self: center;
+} 
+.mayaewk {
+    text-decoration: underline;
+}
+
+
+/* section 3 startinh here */
+.section3 {
+    width: 100%;
+    height: 85vh;
+    background-image: url("https://images.prismic.io/qrates-prd/8a016dbb-a0b2-411e-8ee8-fd1e0d0f81dd_records_plie_up_two.jpg?auto=compress,format");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.section3-main {
+    width: 95%;
+    margin: auto;
+     display: flex;
+     justify-content: space-between;
+     gap: 100px;
+    flex-direction: column;
+}
+.upperbtn-section3 {
+     margin-top: 40px; 
+     margin-bottom: 7px; 
+    width: 200px;
+    padding: 20px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+}
+.section3-main h2 {
+    color: white;
+    font-size: 70px;
+   
+}
+.section3-main p {
+    color: aliceblue;
+    font-size: 40px; 
+    
+}
+
+/* section 4 starts here */
+.section4 {
+    width: 100%;
+    display: flex;
+    height: 80vh;
+    background-color: yellow;
+}
+.section-4-img-con {
+    width: 80%;
+    margin:80px;
+    margin-left: 500px;
+    position: relative;
+}
+.section-4-img1 {
+    transform: rotate(-5deg);
+    height: 100%;
+}
+.section-4-img2 {
+    position: absolute;
+    left: 0;
+    bottom: 40%;
+}
+.section-4-main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn1-section4 {
+    width: 200px;
+    margin-top: 90px;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    background-color: white;
+    border: 3px solid black;
+}
+.btn2-section4 {
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-top: 150px;
+    border-radius: 30px;
+
+}
+.section-4-main2 h2 {
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.section-4-main2 p {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+/* section 5 starts here */
+.section5 {
+    
+        height: 90vh;
+        background-image: url("https://images.prismic.io/qrates-prd/c204447b-9840-4a32-9a4a-2e36945dbec9_discover_nav_discover.jpg?auto=compress,format");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.section5:has(> .section5-con > .section5-text-1:hover){
+    background-image: url('https://t3.ftcdn.net/jpg/03/16/86/98/360_F_316869849_oHD2qOXRJlZE2Md6SNv0MtvDcgZyHkfv.jpg');
+    
+}
+.section5:has(> .section5-con > .section5-text-2:hover){
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/029/861/640/small_2x/open-book-on-blue-background-back-to-school-concept-copy-space-generative-ai-photo.jpg');
+}
+.section5:has(> .section5-con > .section5-text-3:hover){
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20191106/pngtree-back-to-school-rectangular-blackboard-education-book-pen-holder-image_321417.jpg');
+}
+.section5:has(> .section5-con > .section5-text-4:hover){
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5IyFk2AFlKUekw3-Ae35rKZyUEgDQ5RIPv7GCJsauf4Zdi5m2n25lpPo9O1VVOvJUv_M&usqp=CAU');
+}
+.section5:has(> .section5-con > .section5-text-5:hover){
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5QcDH-g5M0BVYH-W8a77Q0uJ4fRjRPiIYFnVLXdBfebuET-6f5DarOGijJ3r7vNm5BBw&usqp=CAU');
+}
+.section5-con h2:hover {
+    text-decoration: underline;
+}
+.section5-con {
+    width: 90%;
+    margin: auto;
+}
+
+.section5-con h2 {
+    color: white;
+    font-size: 80px;
+    padding: 10px;
+    width: fit-content;
+} 
+.section5-con h3 {
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 200px;
+} 
+.btn-section5 {
+    width: 200px;
+    padding: 30px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* section6 starts here */
+
+.section-6 {
+    width: 100%;
+height: 90vh;
+background-color: #000000;
+color: white;
+}
+.section6-btn1 {
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 40px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+
+}
+.section6-con h2 {
+    font-size: 40px;
+
+}
+.section6-con p {
+font-size: 20px;
+}
+.section6-con-img-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 30vh;
+    margin-top: 50px;
+}
+.section6-btn2 {
+    width: 400px;
+    background-color: yellow;
+    padding: 30px 0;
+    color: #000000;
+    border-radius: 30px;
+    margin-left: 150px;
+    margin-top: 40px;
+    text-align: center;
+}
+.section6-con-img-body2 {
+    position: relative;
+  right: -10%;
+background-image: url("https://as1.ftcdn.net/v2/jpg/06/48/89/12/1000_F_648891231_P5euzzOeKaezRlfcDSmrK3hifm2xJZkW.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; 
+animation-name: square-div;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+@keyframes square-div {
+    0%  {background-image: url("https://as1.ftcdn.net/v2/jpg/06/48/89/12/1000_F_648891231_P5euzzOeKaezRlfcDSmrK3hifm2xJZkW.jpg");}
+    25%  {background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTixMLys7pdjpzNe8DbM9QsJKMoQQGC_ZiZ-g&s");}
+    50%  {background-image: url("https://i.pinimg.com/736x/e5/bb/f0/e5bbf011ceaa8abf63fd66cd0df7c497.jpg");}
+    
+    100% {background-image: url("https://img.freepik.com/free-vector/musical-colorful-notes-dark-background_1017-32302.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1717372800&semt=ais_user");}
+    } 
+
+   
+
+    .section6-con-img-body3 > div {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        background-image: url("https://as1.");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; 
+      animation-name: round-div;
+      animation-duration: 8s;
+      animation-iteration-count: infinite;
+      }
+      
+      
+      @keyframes round-div {
+      0%  {background-image: url("https://as1.ftcdn.net/v2/jpg/06/48/89/12/1000_F_648891231_P5euzzOeKaezRlfcDSmrK3hifm2xJZkW.jpg");}
+      25%  {background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTixMLys7pdjpzNe8DbM9QsJKMoQQGC_ZiZ-g&s");}
+      50%  {background-image: url("https://i.pinimg.com/736x/e5/bb/f0/e5bbf011ceaa8abf63fd66cd0df7c497.jpg");}
+      
+      100% {background-image: url("https://img.freepik.com/free-vector/musical-colorful-notes-dark-background_1017-32302.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1717372800&semt=ais_user");}
+      } 
+      .section6-con {
+        width: 50%;
+        margin: auto;
+      }
+
+      .section6-con-img-body1 {
+        position: relative;
+      }
+      .transition-img1 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+    
+        bottom: 0;
+      
+        background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        animation-name: star;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+
+
+      }
+      @keyframes star{
+       
+      0%  { background-image: url(""); } 
+       25%  {background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");}
+       50%  { background-image: url(""); } 
+       75%  {background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");}
+       
+      }
+
+      
+      
+      .transition-img2 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+       left: -200px;
+
+      
+        background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        animation-name: p;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+
+
+      }
+      @keyframes p{
+       
+      0%  { background-image: url(""); } 
+       25%  {background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");}
+       50%  { background-image: url(""); } 
+       75%  {background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");}
+       
+      }
+
+
+      .section6-con-img-body4 {
+        position: relative;
+      }
+      .transition-img3 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+    
+        bottom: 0;
+        right: 0;
+      
+        background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        animation-name: star;
+        animation-iteration-count: infinite;
+        animation-duration: 2s;
+
+
+      }
+      @keyframes star{
+       
+      0%  { background-image: url(""); } 
+       25%  {background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");}
+       50%  { background-image: url(""); } 
+       75%  {background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");}
+       
+      }
+
+
+      .transition-img4 {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+       right: -200px;
+
+      
+        background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        animation-name: p;
+        animation-iteration-count: infinite;
+        animation-duration: 8s;
+
+
+      }
+      @keyframes p{
+       
+      0%  { background-image: url(""); } 
+       25%  {background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");}
+       50%  { background-image: url(""); } 
+       75%  {background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");}
+       
+      }
+
+
+      /* section 7 starts here */
+      .section7-container {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        height: 100vh;
+        overflow: hidden;
+      }
+      .section7-container div {
+        border: 5px solid black;
+      }
+
+      /* section 8 */
+      .footer-con-1 {
+        width: 90%;
+        margin: auto ;
+        display: flex;
+        gap: 70px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+      .footer-con-1 a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+      }
+      .footer-con-1 h2 {
+        color: white;
+        font-size: 60px;
+      }
+      .section8-container {
+        background-color: black;
+      }
+/* section 8B */
+.section-8b {
+    height: 40vh;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+   
+.section-8b-img img {
+    width: 500px;
+    margin-left:100px ;
+margin-top: 10px;
+}
+
+.footer-icone {
+    color: white;
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.footer-a a{
+    text-decoration: none;
+   color: white;
+   gap: 30px;
+   font-size: 30px;
+}
+
+.foot-2b-icone {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+text-align: end;
+}
+.footer-select  {
+    padding: 20px;
+    width: 200px;
+    align-self: flex-end;
+  }
+
+  /* footer for small screen */
+
+ 
+  .footer-small {
+    height: 40vh;
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .foot-small-sec1 {
+    width: 90%;
+    margin: auto;
+  }
+  .footersmall-icone {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+  .footer-select-small {
+    width: 90%;
+    padding: 20px;
+    border: 5px solid white;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+   
+  }
+  .foot-a-small a {
+    color: white;
+    text-decoration: none;
+   padding: 80px;
+   font-size: 20px;
+  }
+  .copylogo {
+  margin-left: 300px;
+  margin-top: 50px;
+  } 
+  .footer-small {
+    display: none;
+  }

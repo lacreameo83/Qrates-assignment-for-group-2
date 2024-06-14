@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section1-container {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.section1-tablet {
+    display: none;
+}
+.container {  
+    width: 100%;
+}
+.section1-main {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.section1-select {
+    border: none;
+    font-size: 15px;
+}
+.section1button1 {
+    border: none;
+    font-size: 20px;
+    background-color: white;
+}
+.section1button2 {
+    width: 300px;
+    padding: 10px 5px;
+    margin: 0 20px;
+    margin-right: 50px;
+    border-radius: 30px;
+    background-color: rgb(192, 184, 168);
+    border: 5px solid  rgb(192, 184, 168);
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+
+/* section 2 */
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 40vh;
+    background-color: black;
+}
+.section2-input2 {
+    display: block;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(241, 230, 230);
+    font-weight: 900;
+    font-size: 150px;
+    text-align: end;
+    letter-spacing: 0.95px;
+    line-height: 70px;
+    font-family: "Noto Sans JP";
+    padding: 20px;
+    padding: 60px;
+}
+
+.section2-input1 {
+    display: block;
+    color:white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    font-weight: 900;
+    font-size: 150px;
+    letter-spacing: 0.95px;
+    line-height: 70px;
+    font-family: "Noto Sans JP";
+    padding: 20px;
+    padding: 60px;
+}
+
+.section2-input2:hover {
+  
+    color: white;
+    
+}

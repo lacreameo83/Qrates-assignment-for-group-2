@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: fit-content;
+}
+.sec2img {
+    height: 20px;
+}
+.icone {
+    width: 30px;
+    margin-left: 20px;
+}
+.section-2-container {
+    display: none;
+}
+.section1-container {
+    display: none;
+}
+.section1-tablet {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.section1-tablet-main {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    width: 100%;
+}
+.section1-tablet-main i {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/* section 2 starts here */
+.section2 {
+    overflow: scroll;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.section2-input2 {
+    font-size: 40px;
+}
+
+.section2-input1 {
+    font-size: 40px;
+    width: 400px;
+}
