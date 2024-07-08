@@ -8,11 +8,9 @@ body {
 }
 /* for sec 1 starting */
 .section1-container {
-  height: 15vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
+  height: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 /* this is for small screen design */
 .section1-tablet {
@@ -24,14 +22,15 @@ body {
 }
 
 .section1-main {
+  height: 10vh;
   display: flex;
   align-items: center;
-
+  justify-content: space-between;
   
 }
 .section1-main img {
-  width: 40px;
-  margin-left: 5%;
+  width: 50px;
+  height: 50px;
 }
 
 /* the icone in discorery music */
@@ -44,17 +43,15 @@ body {
 .btn-container {
   position: relative;
   display: inline-block;
-  width: 180px;
-  margin-left: 40px;
+ 
 }
 
 .btn-container label {
   border: none;
-  background-color: white;
   font-family: Qratesis, "Noto Sans JP", sans-serif;
-  font-weight: 570;
+  font-weight: 400;
   color: #000000;
-  font-size: 15px;
+  font-size: 13px;
 cursor: pointer;
 }
 
@@ -110,31 +107,25 @@ input[type="checkbox"]{
 /* this is for artists */
 .sec-1-a-btn {
   border: none;
-  font-size: 15px;
-  background-color: white;
+  font-size: 12px;
   font-family: Qratesis, "Noto Sans JP", sans-serif;
-  font-weight: 570;
+  font-weight: 500;
   color: #000000;
-  width: 150px;
   text-decoration: none;
 }
 /* for fans */
 .btn-2 {
   border: none;
-  font-size: 15px;
-  background-color: white;
+  font-size: 12px;
   font-family: Qratesis, "Noto Sans JP", sans-serif;
-  font-weight: 570;
+  font-weight: 400;
   color: #000000;
-  width: 100px;
-
 }
 .section-1-icone1  {
-font-size: 20px;
-width: 75px;
+font-size: 13px;
 }
 .section-1-icone2 {
-  font-size: 25px; 
+  font-size: 13px; 
 }
 .section-1-a {
   display: flex;
@@ -142,27 +133,33 @@ width: 75px;
 
 }
 /* part 2 of nav */
+.nav-sec1-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
 
 .section1button1 {
   border: none;
-  font-size: 15px;
+  font-size: 12px;
   background-color: white;
   font-family: Qratesis, "Noto Sans JP", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   color: #000000;
  margin-right: 20px;
 }
 .section1button2 {
-  width: 200px;
+  margin-right: 20px;
+  margin-left: 20px;
   padding: 15px 20px;
-  margin-right: 25px;
-  border-radius: 30px;
-  background-color: rgb(178, 178, 178);
-  border: 3px solid rgb(178, 178, 178);
-  font-family: Qratesis, "Noto Sans JP", sans-serif;
-  font-weight: 700;
-  font-size: 15px;
   color: white;
+  font-weight: 400;
+  font-size: 10px;
+  border-radius: 20px;
+  background-color: rgb(178, 178, 178);
+  outline: none;
+  border: none;
  
 }
 
@@ -171,84 +168,91 @@ width: 75px;
 
 /* section2 */
 /* container containing everything */
+.section-2-container {
+  height: 85vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px 40px;
+}
+
 .section-2-mainsec {
   width: 90%;
   margin: auto;
 }
-.section-2-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 90vh;
-}
+
 /* for the black background */
 .section-2-input1 {
-  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000000;
-  font-weight: 500;
-  font-size: 65px;
-  line-height: 90px;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 5px;
   font-family: Qratesis, "Noto Sans JP", sans-serif;
   margin-top: 10%;
+  margin-bottom: 25px;
 }
 /* for white background */
 .section-2-input2 {
   display: block;
   color: transparent;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000000;
-  font-weight: 700;
-  font-size: 70px;
-  line-height: 70px;
-  font-family: Qratesis, "Noto Sans JP", sans-serif;
- margin-bottom: 5px;
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: 0.95px;
+  line-height: 55px;
+  font-family: "Noto Sans JP", sans-serif;
+ 
+ 
 }
 
 .section-2-mainsec p {
   font-family: Qratesis, "Noto Sans JP", sans-serif;
-  font-weight: 530;
-  color: #000000;
-  font-size: 28px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
 }
 .section1-btn {
-  width: 250px;
-  padding: 15px ;
+  padding: 10px;
+  width: 200px;
   border-radius: 30px;
-  margin-left: 5px;
-  font-family: Qratesis, "Noto Sans JP", sans-serif;
-  font-weight: 550;
-  color: #000000;
-  font-size: 15px;
+  background-color: white;
+  font-weight: 900;
 }
 .sec2p {
   margin: 45px 0;
 }
 /* for black button */
 .btn2 {
-  background-color: #000000;
-  color: white;
+  padding: 10px;
+    width: 200px;
+    border-radius: 30px;
+    background-color:black;
+    color: white;
+    font-weight: 900;
+    margin-left: 10px;
 }
+
+
 .sec2img {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
   position: relative;
 }
 /* the icone inside the image */
 .sec2img-icone {
   position: absolute;
-  right:650px;
+  right:550px;
   top: 200px;
-  width: 130px;
+  width: 110px;
 }
 
 .sec2img1 {
   border: 3px solid black;
-  margin-top: 15px;
-  margin-left: 10px;
-  width: 430px;
   transform: rotate(10deg);
-  margin-top: 85px;
-  margin-left: 100px;
-  height: 82%;
+  height: 70%;
+  margin-top: 40px;
+
 }
 .sec2-orintation {
   transform: rotate(89deg);
@@ -257,11 +261,9 @@ width: 75px;
   color: #000000;
   font-size: 10px;
   position: relative;
-  height: 70px;
   width: 300px;
   align-self: center;
   right:-50px;
-  bottom: -80px;
 }
 .mayaewk {
   text-decoration: underline;
@@ -469,6 +471,8 @@ width: 75px;
   height: 95vh;
   background-color: #000000;
   color: white;
+  height: fit-content;
+  padding-bottom: 20px;
 }
 .set1-section6 {
   width: 90%;
@@ -492,13 +496,14 @@ width: 75px;
 .section6-con p {
   font-size: 19px;
   line-height: 30px;
+  text-align: center;
 }
 .section6-con-img-body {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   height: 40vh;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .section6-btn2 {
   width: 300px;
@@ -551,8 +556,8 @@ width: 75px;
 }
 .transition-img1 {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
   left: 0;
  bottom:0;
 
@@ -580,10 +585,9 @@ width: 75px;
 
 .transition-img2 {
   position: absolute;
-  width: 150px;
-  height: 150px;
-  left: -150px;
-
+  width: 80px;
+  height: 80px;
+  left: -110px;
   background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -610,12 +614,12 @@ width: 75px;
   position: relative;
 }
 
-/* .transition-img3 {
+.transition-img3 {
   position: absolute;
-  width: 150px;
-  height: 150px;
-  right: -400px;
- bottom: -300px;
+  width: 80px;
+  height: 80px;
+  right: -100px;
+ bottom: -250px;
 
   background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");
   background-repeat: no-repeat;
@@ -637,13 +641,13 @@ width: 75px;
   75% {
     background-image: url("https://assets.qrates.com/packs/media/sticker/sparkle_white-15aaeb14.png");
   }
-} */
+}
 
 .transition-img4 {
   position: absolute;
-  width: 150px;
-  height: 150px;
-  right: -400px;
+  width: 80px;
+  height: 80px;
+  right: -200px;
   top: 0;
 
   background-image: url("https://assets.qrates.com/packs/media/sticker/dollar_white-94a2da47.png");
@@ -706,16 +710,16 @@ width: 75px;
 }
 /* section 8B */
 .section-8b {
-  height: 60vh;
+  height: 85vh;
   background-color: #000000;
   display: grid;
+  align-items: end;
   grid-template-columns: 1fr 1fr;
+  padding: 0 40px 20px 40px;
 }
 
 .section-8b-img img {
   width: 400px;
-  margin-left: 100px;
-  margin-top: 32%;
 }
 
 .footer-icone {
@@ -737,7 +741,7 @@ width: 75px;
 .foot-2b-icone {
   display: flex;
   flex-direction: column;
-  margin-right: 50px;
+  /* margin-right: 50px; */
   text-align: end;
   margin-top: 32%;
 }
